@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(95deg, hsl(280, 100%, 70%),  hsl(300, 100%, 70%));
+  color: hsl(50 90% 70%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  background-color: hsl(50 90% 70%);
+  color: hsl(280, 100%, 0%);
+  border-radius: 1em;
+  border: solid 2px #000000;
+  padding: 1%;
+  margin: 5%;
+  transition: 300ms;
+  gap: 3%;
+}
+
+form:hover {
+  box-shadow: #000000 0rem 0rem .5rem 0.05rem;
+}
+
+form h1 {
+  text-align: center;
+  font-size: 2rem;
+  transition: 200ms;
+} 
+
+form h1:hover {
+    transform: scale(1.05)
+}
+
+form a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+form label, a {
+    font-size: 1rem;
+    transition: 200ms;
+}
+
+form a:hover, label:hover {
+    transform: scale(1.05)
+}
+
+input {
+  background-color: hsl(50 90% 70%);
+  border: none;
+  border-bottom: 2px solid hsl(50 90% 0%);
+  outline: none;
+  font-size: 1.5rem;
+  width: 300px;
+  transition: 200ms;
+}
+
+input:hover {
+    width: 325px;
+    transform: scale(1.05)
+}
+
+button {
+  font-size: 1.7rem;
+  background-color: hsl(50 90% 70%);
+  color: hsl(50 90% 0%);
+  border: none;
+  border-radius: .51rem;
+  transition: 200ms;
+  width: 200px;
+  align-self: center;
+}
+
+button:hover {
+  background-color: #000000;
+  color: hsl(50 90% 70%);
+}
+
+p {
+    font-size: 1rem;
+    transition: 200ms;
+}
+
+p:hover {
+    transform: scale(1.05)
+}
+
+form p {
+    text-align: center;
+}
